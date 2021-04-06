@@ -21,8 +21,7 @@ const vehicleSchema = new Schema({
     required : true,
     min : 0,
     max : 2,
-    default : 0,
-    immutable : true
+    default : 0
   }
 },{ timestamps : true})
 
